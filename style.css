@@ -50,7 +50,7 @@ nav ul li a:hover
 {
     height: 400px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url('https: //images .unplash .com/photo -1524995997946px a 1c 2em 315a 42f;');
+    url('images/libBack.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -128,7 +128,7 @@ nav ul li a:hover
 {
     width: 100%;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
 }
 
