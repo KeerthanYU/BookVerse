@@ -1,5 +1,5 @@
 function addToCart(bookName){
-    alert(bookName+"has been added to your cart!");
+    alert(bookName+" has been added to your cart!");
 }
 
 const shopButton=document.querySelector('.shop-btn');
@@ -7,7 +7,8 @@ shopButton.addEventListener("click",function(){
     alert("welcome to BookVerse! Start exploring Books.")
 });
 
-const searchInput=document.createElement(".hero-search input");
+const searchInput = document.querySelector(".hero-search input"); 
+
 searchInput.addEventListener("keyup",function(){
     const searchValue=searchInput.value.toLowerCase();
     const books = document.querySelectorAll(".book-card");
@@ -22,20 +23,19 @@ searchInput.addEventListener("keyup",function(){
     });
 });
 
-const darkModeButton=document.createElement("darkModeBtn");
-darkModeButton.addEventListener("click",function(){
+const darkModeButton = document.querySelector("#darkModeBtn");
+
+darkModeButton.addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
-    if(document.body.classList.contains("dark-mode"))
-    {
-        darkModeButton.innerText="Light Mode";
-    }
-    else{
-        darkModeButton.innerText="Dark Mode";
+    if (document.body.classList.contains("dark-mode")) {
+        darkModeButton.innerText = "Light Mode";
+    } else {
+        darkModeButton.innerText = "Dark Mode";
     }
 });
 
 const topButton=document.createElement("button");
-topButton.innerText="up";
+topButton.innerText="Back to top";
 topButton.classList.add("top-btn");
 document.body.appendChild(topButton);
 window.addEventListener("scroll",function(){
