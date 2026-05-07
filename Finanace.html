@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Books - BookVerse</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #f4f4f4;
+        }
+
+        header{
+            background-color: #1b4332;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1{
+            font-size: 36px;
+        }
+
+        .books-section{
+            padding: 50px;
+        }
+
+        .books-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .book-card{
+            background-color: white;
+            width: 250px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .book-card:hover{
+            transform: translateY(-10px);
+        }
+
+        .book-card img{
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .book-card h3{
+            margin-top: 15px;
+            font-size: 22px;
+            color: #222;
+        }
+
+        .book-card p{
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .price{
+            font-size: 20px;
+            color: #2d6a4f;
+            font-weight: bold;
+        }
+
+        .book-card button{
+            margin: 15px 0 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #2d6a4f;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .book-card button:hover{
+            background-color: #1b4332;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Finance Books</h1>
+    </header>
+
+    <section class="books-section">
+
+        <div class="books-container">
+
+            <div class="book-card">
+                <img src="images/richdad.jpg" alt="Rich Dad Poor Dad">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>By Robert Kiyosaki</p>
+                <p class="price">&#8377 450</p>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="book-card">
+                <img src="images/psychologymoney.jpg" alt="Psychology of Money">
+                <h3>The Psychology of Money</h3>
+                <p>By Morgan Housel</p>
+                <p class="price">&#8377 550</p>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="book-card">
+                <img src="images/thinkgrow.jpg" alt="Think and Grow Rich">
+                <h3>Think and Grow Rich</h3>
+                <p>By Napoleon Hill</p>
+                <p class="price">&#8377 499</p>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="book-card">
+                <img src="images/intelligentinvestor.jpg" alt="The Intelligent Investor">
+                <h3>The Intelligent Investor</h3>
+                <p>By Benjamin Graham</p>
+                <p class="price">&#8377 799</p>
+                <button>Add To Cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
