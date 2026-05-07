@@ -15,10 +15,10 @@ body {
 
 .login-container {
     width: 380px;
-    padding: 35px;
+    padding: 40px;
     background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -47,8 +47,8 @@ body {
 }
 
 .login-container input:focus {
-    border-color: #9848ee;
-    box-shadow: 0 0 5px rgba(44, 62, 80, 0.3);
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
 }
 
 .login-container button {
