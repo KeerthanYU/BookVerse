@@ -171,6 +171,13 @@ nav ul li a:hover
     cursor: pointer;
     transition: 0.3s;
 }
+.category-container a {
+    text-decoration: none;
+}
+
+.category-card a{
+    text-decoration: none;
+}
 
 .category-card:hover {
     background-color: #f1c40f;
