@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Books - BookVerse</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #f4f4f4;
+        }
+
+        header{
+            background-color: #023047;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1{
+            font-size: 36px;
+        }
+
+        .books-section{
+            padding: 50px;
+        }
+
+        .books-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .book-card{
+            background-color: white;
+            width: 250px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .book-card:hover{
+            transform: translateY(-10px);
+        }
+
+        .book-card img{
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .book-card h3{
+            margin-top: 15px;
+            font-size: 22px;
+            color: #222;
+        }
+
+        .book-card p{
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .price{
+            font-size: 20px;
+            color: #023047;
+            font-weight: bold;
+        }
+
+        .book-card button{
+            margin: 15px 0 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #219ebc;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .book-card button:hover{
+            background-color: #126782;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Technology Books</h1>
+    </header>
+
+    <section class="books-section">
+
+        <div class="books-container">
+
+            <div class="book-card">
+                <img src="images/cleancode.jpg" alt="Clean Code">
+                <h3>Clean Code</h3>
+                <p>By Robert C. Martin</p>
+                <p class="price">&#8377 799</p>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="book-card">
+                <img src="images/pythoncrash.jpg" alt="Python Crash Course">
+                <h3>Python Crash Course</h3>
+                <p>By Eric Matthes</p>
+                <p class="price">&#8377 699</p>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="book-card">
+                <img src="images/ai.jpg" alt="Artificial Intelligence">
+                <h3>Artificial Intelligence</h3>
+                <p>By Stuart Russell</p>
+                <p class="price">&#8377 999</p>
+                <button>Add To Cart</button>
+            </div>
+
+            <div class="book-card">
+                <img src="images/systemdesign.jpg" alt="System Design">
+                <h3>System Design</h3>
+                <p>By Alex Xu</p>
+                <p class="price">&#8377 850</p>
+                <button>Add To Cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
