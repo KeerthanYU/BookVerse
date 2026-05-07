@@ -21,7 +21,7 @@ header
     align-items: center;
 }
 
-.dark-btn
+.login-btn
 {
     padding: 10px 18px;
     border: none;
@@ -33,7 +33,7 @@ header
     transition: 0.3s;
 }
 
-.dark-btn:hover
+.login-btn:hover
 {
     background-color: #d4ac0d;
     transform: scale(1.05);
@@ -62,49 +62,6 @@ nav ul li a
 nav ul li a:hover
 {
     color: #f1c40f;
-}
-
-.dark-mode
-{
-    background-color: #121212;
-    color: white;
-}
-
-.dark-mode header
-{
-    background-color: #111;
-}
-
-.dark-mode .books
-{
-    background-color: #181818;
-}
-
-.dark-mode .book-card
-{
-    background-color: #222;
-    color: white;
-}
-
-.dark-mode .book-card p
-{
-    color: #ccc;
-}
-
-.dark-mode footer
-{
-    background-color: #111;
-}
-
-.dark-mode .section-title
-{
-    color: white;
-}
-
-.dark-mode .hero-search input
-{
-    background-color: #333;
-    color: white;
 }
 
 .hero
