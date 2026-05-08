@@ -193,7 +193,7 @@ nav ul li a:hover{
 
 .category-card:hover{
     transform:translateY(-8px);
-    background:#38bdf8;
+    background: linear-gradient(135deg,#f3d305,#ff7707,#fa0606,#f5f506);
     color:white;
 }
 
@@ -281,7 +281,7 @@ nav ul li a:hover{
 
 .offer-card:hover{
     transform:translateY(-8px);
-    background: linear-gradient(135deg,#b7f697,#b482ed);
+    background: linear-gradient(135deg,#f59106,#d9f006,#f59106);
 }
 
 .offer-card h3{
@@ -302,6 +302,7 @@ nav ul li a:hover{
 
 .contact{
     padding:90px 8%;
+    background: linear-gradient(45deg,#f9f4f4,#f59607,#d23f3a,#e8d503,#f1eaea);
 }
 
 .contact-container{
