@@ -20,7 +20,7 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:18px 8%;
-    background:linear-gradient(135deg,#0f172a,#1e293b);
+    background:linear-gradient(135deg,#cce50c,#f09103,#e97603,#ddf008);
     top:0;
     z-index:1000;
     box-shadow:0 4px 15px rgba(0,0,0,0.15);
@@ -55,7 +55,7 @@ nav ul li a:hover{
     padding:10px 22px;
     border:none;
     border-radius:30px;
-    background:#38bdf8;
+    background: #5ac9e8;
     color:white;
     font-size:0.95rem;
     font-weight:600;
@@ -281,6 +281,7 @@ nav ul li a:hover{
 
 .offer-card:hover{
     transform:translateY(-8px);
+    background: linear-gradient(135deg,#b7f697,#b482ed);
 }
 
 .offer-card h3{
@@ -345,11 +346,11 @@ nav ul li a:hover{
 }
 
 .contact-container button:hover{
-    background:#38bdf8;
+    background:#3e0efc;
 }
 
 footer{
-    background:linear-gradient(135deg,#0f172a,#1e293b);
+    background:linear-gradient(135deg,#cce50c,#f09103,#e97603,#ddf008);
     padding:25px;
     text-align:center;
     color:white;
